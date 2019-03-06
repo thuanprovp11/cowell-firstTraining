@@ -138,7 +138,8 @@ a{
 /*END SERVICE*/
 /*START WORK*/
 .work{
-    text-align: center
+    text-align: center;
+    padding-bottom:50px;
 }
 .work__img{
     margin:0 auto;
@@ -164,6 +165,14 @@ a{
     background: url("../img/nature-6.jpg") 0 0/cover no-repeat;
     height:425px;
     color:white;
+    position: relative;
+}
+.client__header, .client__header i{
+    display:block;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .client__header .title__main::after{
     content: "";
@@ -173,11 +182,10 @@ a{
     color:#f9c035;
 }
 .client__header p{
-    margin: 0 auto;
     text-align: center;
     font-size: 20px;
 }
 .client__content{
-    width:60%;
+    text-align: center;
 }
 /*END CLIENT*/
